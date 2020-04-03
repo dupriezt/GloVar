@@ -26,6 +26,11 @@ GV class >> d [
 	^ dictionary
 ]
 
+{ #category : #accessing }
+GV class >> emptyDictionary [
+	dictionary := nil
+]
+
 { #category : #'global variables' }
 GV class >> v0 [
 	^ v0
