@@ -5,8 +5,8 @@ Provides global variables in a pinch.
 ## Installation
 ```Smalltalk
 Metacello new
-    baseline: 'DebuggerCommunication';
-    repository: 'github://dupriezt/DebuggerCommunication';
+    baseline: 'GloVar';
+    repository: 'github://dupriezt/GloVar';
     load.
 ```
 
