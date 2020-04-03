@@ -20,18 +20,9 @@ Class {
 	#category : #GloVar
 }
 
-{ #category : #'global variables' }
-GV class >> at: aKey [
-	^ dictionary at: aKey
-]
-
-{ #category : #'global variables' }
-GV class >> at: aKey put: anObject [
-	^ dictionary at: aKey put: anObject
-]
-
 { #category : #accessing }
-GV class >> dictionary [
+GV class >> d [
+	dictionary ifNil: [ dictionary := Dictionary new ].
 	^ dictionary
 ]
 
